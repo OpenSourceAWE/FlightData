@@ -25,6 +25,10 @@ using LazyArtifacts
 datadir = joinpath(artifact"flight_data", "flight_data")
 # datadir now points to the extracted flight_data/ folder
 ```
+List the files:
+```
+readdir(datadir)
+```
 
 ### Manual download
 
