@@ -22,7 +22,7 @@ Then access the data in Julia:
 
 ```julia
 using LazyArtifacts
-datadir = @artifact "flight_data"
+datadir = joinpath(artifact"flight_data", "flight_data")
 # datadir now points to the extracted flight_data/ folder
 ```
 
