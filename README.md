@@ -12,6 +12,7 @@ Add the following to your `Artifacts.toml`:
 ```toml
 [flight_data]
 git-tree-sha1 = "dc45f0e5f2ed023d7871660bdb1c9d29b9863edc"
+lazy = true
 
     [[flight_data.download]]
     sha256 = "7c93b77c8fe3a3a78fb8268699c51d200e305736cedce6c01b67d21ef6f7d66e"
