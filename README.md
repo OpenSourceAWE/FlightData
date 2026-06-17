@@ -21,7 +21,7 @@ git-tree-sha1 = "9ac5fb6863ecdce392c784302e2d3169918a23f2"
 Then access the data in Julia:
 
 ```julia
-using ArtifactUtils  # or LazyArtifacts
+using LazyArtifacts
 datadir = @artifact "flight_data"
 # datadir now points to the extracted flight_data/ folder
 ```
